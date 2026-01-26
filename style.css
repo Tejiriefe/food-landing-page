@@ -1,0 +1,1147 @@
+
+        #container_div{
+            padding:10px 40px;
+        }
+        .header{
+            display: flex;
+        }
+        .header_tabs{
+            display: flex;
+            justify-content:start;
+            gap:30px;
+            padding-top:15px;
+           
+        }
+        .header_link{
+            text-decoration: none;
+            font-family: Roboto;
+            font-size:15px;
+            color: rgb(21, 12, 1, 0.6);
+            font-weight: 400;
+
+        }
+        .header_link:hover{
+            color:#DC780B;
+        }
+        .header img{
+           padding-right:30px;
+        }
+       .bookingbtn{
+        font-family: Roboto;
+        margin-left: auto;
+        border-radius: 5px;
+        background-color: #DC780B;
+        color:white;
+        border: none;
+        width:150px;
+        cursor:pointer;
+       }
+       #home{
+        height:100vh;
+        display: flex;
+       }
+       .home_texts{
+        max-width:46%;
+       }
+       .home_main_text{
+        font-family: Philosopher;
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: 57.6px;
+       }
+       .home_sub_text{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 20px;
+        color: rgb(21, 12, 1, 0.7);
+       }
+       .home_buttons{
+        display: flex;
+        gap:40px;
+        text-align: center;
+       }
+       .order_nowbtn{
+        width:170px;
+        border:1.5px solid #DC780B;
+        height:60px;
+        align-content: center;
+        font-family: Roboto;
+        border-radius: 5px;
+        background-color: #DC780B;
+        color: white;
+       }
+        
+       .order_nowbtn:hover{
+        background-color: white;
+        color:#DC780B;
+        cursor: pointer;
+       }
+    
+       .food_detailsbtn{
+        width:170px;
+        border:1.5px solid #DC780B;
+        height:60px;
+        align-content: center;
+        font-family: Roboto;
+        border-radius: 5px;
+        color: #DC780B;
+        background-color: white;
+       }
+
+       .food_detailsbtn:hover{
+        background-color:#DC780B;
+        color: white;
+        cursor: pointer;
+       }
+
+       .home_image{
+        width:100%;
+        background-image: url(./images/homefood.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       }
+       
+       #features{
+        height: 85vh;
+       }
+
+       .features_text{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color:rgba(220,120,11,0.7);
+        text-align: center;
+       }
+       .features_subtext{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 100%;
+        letter-spacing: 0em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: -5px;
+       }
+
+       .features_description{
+        display: flex;
+        justify-content: space-evenly;
+        width:100%;
+       }
+       .quality, .delivery, .taste{
+        width:300px;
+        height:240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+       }
+       .quality_image{
+        background-color: #ecefdf; 
+        border-radius: 50%; 
+        width:60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+       
+       }
+       .delivery_image{
+        background-color: #fac6bb; 
+        border-radius: 50%; 
+        width:60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
+       }
+       .taste_image{
+        background-color: #edddcd; 
+        border-radius: 50%; 
+        width:60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+       }
+       .quality_image img, .delivery_image img, .taste_image img{
+        width:70%;
+        height:70%;
+        display: block;
+        object-fit: contain;
+       }
+       .features_headertext{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 24px;
+        letter-spacing: 0em;
+       }
+       .features_headersubtext{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size:16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: -10px;
+        color: rgb(21, 12, 1, 0.7);
+       }
+       #about{
+        height:60vh;
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap:20px;
+       }
+       .about_image{
+        width:40%;
+        height:300px;
+        background-image: url(./images/about\ image.png);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 56.25%;
+       }
+       .about_text{
+        width:40%;
+        height:350px;
+       }
+       .aboutus{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color:rgba(220,120,11,0.7);
+       }
+       .aboutus_header{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 40.63px;
+        letter-spacing: 0%;
+        margin-top: -5px;
+       }
+       .aboutus_subtext{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: -10px;
+        color: rgb(21, 12, 1, 0.7);
+       }
+       .readmore_btn{
+        width:142px;
+        border:1.5px solid #DC780B;
+        height:42px;
+        align-content: center;
+        font-family: Roboto;
+        font-weight: 500;
+        border-radius: 5px;
+        background-color: #DC780B;
+        color: white;
+        cursor: pointer;
+       }
+       #menu{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 180px;
+       }
+       .menu{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color:rgba(220,120,11,0.7);
+       }
+       .menu_texts{
+        width:60%;
+        height:170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .menu_header{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 40.63px;
+        letter-spacing: 0%;
+        margin-top: -7px;
+       }
+       .menu_subtext{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size:16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgb(21, 12, 1, 0.7);
+        margin-top: -5px;
+       }
+       .menu_grid{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:30px;
+        padding: 20px 0;
+       }
+       .card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card{
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadown 0.3s ease;
+        }
+        .card:hover{
+            transform:translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        .card img{
+            width: 100%;
+            height:240px;
+            object-fit: cover;
+            display: block;
+        }
+        .card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            display: block;
+            border-top-left-radius:60px; 
+            border-bottom-right-radius: 60px;
+        }
+
+        .card-body {
+            padding: 5px 10px 10px 10px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .card-header h3 {
+            font-family: Philosopher;
+            font-size: 25px;
+            color: #000000;
+            font-weight: 700;
+        }
+
+        .card-header .price {
+            font-family: Philosopher;
+            font-size: 25px;
+            color: #000000;
+            font-weight: 700;
+        }
+
+        .card p {
+            color: rgb(21, 12, 1, 0.7);
+            font-size: 16px;
+            font-weight:400;
+            line-height: 24px;
+            margin-bottom: 20px;
+            font-family: Roboto;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-footer button {
+            background-color: #DC780B;
+            color: white;
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-footer button:hover {
+            background-color: #c56a0a;
+        }
+
+        .stars {
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+
+        .learn-more {
+            text-align: center;
+            margin-top: 50px;
+            color: #DC780B;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 100%;
+            transition: color 0.3s ease;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid rgba(220,120,11,0.1);
+            height: 42px;
+            width:142px;
+            cursor: pointer;
+
+        }
+
+        .learn-more-btn:hover {
+            color: #c56a0a;
+        }
+
+        @media (max-width: 1024px) {
+            .menu_grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu_header {
+                font-size: 32px;
+            }
+
+            .menu_grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+       #takeaway{
+        align-items: center;
+        display: flex;
+        height: 70vh;
+        justify-content: space-evenly;
+        gap:20px;
+        background-color: rgba(251, 241, 231, 0.4);
+        margin-top: 100px;
+
+       }
+       .takeaway{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color:rgba(220,120,11,0.7);
+       }
+       .takeaway_header{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 40.63px;
+        letter-spacing: 0%;
+        margin-top: -10px;
+       }
+       .takeaway_subtext{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(21, 12, 1, 0.7);
+       }
+       .takeaway_texts{
+        width:550px;
+
+       }
+       .takeaway_img{
+        width:323.1355895996094px;
+        height: 500px;
+        background-image: url(./images/phone.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top:-10px;
+        z-index: 10;
+        
+
+       }
+       .takeaway_buttons{
+        margin-top: 30px;
+        display: flex;
+        gap:20px;
+       }
+        .applebtn{
+            background-color: #150C01;
+            border-radius: 5px;
+            width:150px;
+            height: 48px;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+        .googlebtn{
+            border-radius: 5px;
+            width:150px;
+            height: 48px;
+            background-color: rgba(251, 241, 231, 0.4);
+            border: 0.5px solid rgb(128, 128, 128, 0.4);
+            cursor:pointer;
+        }
+        #testimonial{
+            height:130vh;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .testimonial_texts{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:60%;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .testimonial{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color:rgba(220,120,11,0.7);
+        }
+        .testimonial_header{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 40.63px;
+        letter-spacing: 0%;
+        margin-top: -5px;
+        }
+        .testimonial_subtext{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: -5px;
+        color: rgb(21, 12, 1, 0.7);
+        }
+        .rating{
+        width:40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-top: 100px;
+        
+        }
+        .profile_pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile_pic img{
+            border-radius: 50px;
+            width:50px;
+            height: 50px;
+        }
+        .rating_texts{
+            text-align: center;
+        }
+        .rating_texts p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        }
+       
+       #contact{
+        margin-top: 50px;
+        height: 60vh;
+        background-color: rgba(220,120,11,0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       }
+       .contact_texts{
+        width:60%;
+        margin-top: 20px;
+       }
+       .contact{
+        font-family: Roboto;
+        color:rgba(220,120,11,0.7);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+       }
+
+       .contact_header{
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 40.63px;
+        letter-spacing: 0%;
+        text-align: center;
+       }
+
+       .searchbar{
+        height: 70px;
+        width:700px;
+        border-radius: 10px;
+        border: none;
+        padding-left: 50px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size:16px;
+        line-height: 40.6px;
+       }
+       .sendbtn{
+        width:150px;
+        border:1.5px solid #DC780B;
+        height:75px;
+        cursor: pointer;
+        align-content: center;
+        font-family: Roboto;
+        font-weight: 500;
+        border-radius: 10px;
+        background-color: #DC780B;
+        color: white;
+        margin-left: -50px;
+        margin-top: 10px;
+       }
+
+       #ending{
+        height:50vh;
+        background-color: #252525;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+       }
+       #ending div{
+        width:25%;
+        height:200px;
+        text-align: start;
+       }
+       #enging ul{
+        padding: 0;
+        margin: 0;
+       }
+       #ending li{
+        list-style-type: none;
+        color: rgb(255, 255, 255, 0.7);
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: start;
+        margin-bottom: 15px;
+       }
+       #ending .header{
+        font-family: Philosopher;
+        font-weight: 700;
+
+        font-size: 14px;
+        line-height: 100%;
+        color: white;
+       }
+    .social-icons {
+        display: flex;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .social-icons img {
+        cursor: pointer;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0.9;
+    }
+
+    .social-icons img:hover {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+
+      
+
+/* TABLET (768px - 1024px)  */
+@media (max-width: 1024px) {
+    
+    /* Header */
+    .header_tabs {
+        gap: 10px;
+    }
+
+    .bookingbtn {
+        width: 100px;
+    }
+
+    /* Home Section */
+    #home {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .home_texts {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .home_main_text {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .home_image {
+        width: 100%;
+        height: 400px;
+    }
+
+    .home_buttons {
+        justify-content: center;
+    }
+
+    /* Features */
+    #features {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .features_description {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .quality, .delivery, .taste {
+        width: 45%;
+    }
+
+    /* About */
+    #about {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .about_image {
+        width: 80%;
+        height: 400px;
+    }
+
+    .about_text {
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Menu */
+    .menu_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Takeaway */
+    #takeaway {
+        height: auto;
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+    .takeaway_texts {
+        width: 90%;
+        text-align: center;
+    }
+
+    .takeaway_buttons {
+        justify-content: center;
+    }
+
+    /* Testimonial */
+    #testimonial {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .rating {
+        width: 70%;
+    }
+
+    /* Contact */
+    .searchbar {
+        width: 500px;
+    }
+
+    /* Footer */
+    #ending {
+        height: auto;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    #ending div {
+        width: 45%;
+    }
+}
+
+/* MOBILE (max-width: 768px) */
+@media (max-width: 768px) {
+    #container_div {
+        padding: 10px 15px;
+    }
+
+    /* Header - Make it vertical */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header_tabs {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .bookingbtn {
+        width: 100%;
+        max-width: 200px;
+        margin: 0;
+    }
+
+    /* Home Section */
+    #home {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .home_texts {
+        padding: 0 10px;
+    }
+
+    .home_main_text {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .home_sub_text {
+        font-size: 14px;
+    }
+
+    .home_buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .order_nowbtn, .food_detailsbtn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .home_image {
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /* Features */
+    #features {
+        padding: 40px 10px;
+    }
+
+    .features_text {
+        font-size: 14px;
+    }
+
+    .features_subtext {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .features_description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quality, .delivery, .taste {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* About */
+    #about {
+        padding: 40px 10px;
+        gap: 30px;
+    }
+
+    .about_image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about_text {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .aboutus_header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* Menu */
+    #menu {
+        margin-top: 80px;
+        padding: 0 10px;
+    }
+
+    .menu_texts {
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .menu_header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .menu_grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .card-header h3,
+    .card-header .price {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    /* Takeaway */
+    #takeaway {
+        height: auto;
+        padding: 40px 15px;
+        margin-top: 60px;
+    }
+
+    .takeaway_texts {
+        width: 100%;
+        text-align: center;
+    }
+
+    .takeaway_header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .takeaway_subtext {
+        font-size: 14px;
+    }
+
+    .takeaway_buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .applebtn, .googlebtn {
+        width: 180px;
+    }
+
+    .takeaway_img {
+        width: 250px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    /* Testimonial */
+    #testimonial {
+        height: auto;
+        padding: 60px 15px;
+    }
+
+    .testimonial_texts {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .testimonial_header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .testimonial_subtext {
+        font-size: 14px;
+    }
+
+    .rating {
+        width: 100%;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .profile_pic img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .rating_texts p {
+        font-size: 14px;
+    }
+
+    /* Contact */
+    #contact {
+        height: auto;
+        padding: 40px 15px;
+        margin-top: 40px;
+    }
+
+    .contact_texts {
+        width: 100%;
+    }
+
+    .contact_header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .searchbar_div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .searchbar {
+        width: 100%;
+        max-width: 350px;
+        padding-left: 20px;
+        font-size: 14px;
+        height: 55px;
+    }
+
+    .sendbtn {
+        width: 100%;
+        max-width: 350px;
+        height: 55px;
+        margin: 0;
+    }
+
+    /* Footer */
+    #ending {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 15px;
+        gap: 30px;
+    }
+
+    #ending div {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    #ending ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ending li {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* SMALL MOBILE (max-width: 480px)  */
+@media (max-width: 480px) {
+    .home_main_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .features_subtext,
+    .aboutus_header,
+    .menu_header,
+    .takeaway_header,
+    .testimonial_header,
+    .contact_header {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .home_image {
+        height: 250px;
+    }
+
+    .about_image {
+        height: 250px;
+    }
+
+    .takeaway_img {
+        width: 200px;
+        height: 350px;
+    }
+
+    .searchbar {
+        max-width: 280px;
+        font-size: 13px;
+    }
+
+    .sendbtn {
+        max-width: 280px;
+    }
+}
+
+       
+
+    
