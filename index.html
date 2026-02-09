@@ -8,184 +8,194 @@
 </head>
 <body>
     <div id="container_div">
-        <div class="header"> 
-            <img src="./images/foodlogo.png" alt="food network logo" width="44px" height="43px"/>   
-            <div class="header_tabs">
+        <!--HEADER-->
+        <header class="header"> 
+                <img src="./images/foodlogo.png" alt="food network logo" width="44px" height="43px"/>   
+                <nav class="header_tabs">
 
-            <a href="#home" class="header_link">Home</a>
-            <a href="#about" class="header_link">About us</a>
-            <a href="#menu" class="header_link">Menu</a>
-            <a href="#features"  class="header_link">Features</a>
-            <a href="#contact" class="header_link">Contact us</a>
-            </div>
-            <button class="bookingbtn">Booking Now</button>
-        
-        </div>
+                    <a href="#home" class="header_link">Home</a>
+                    <a href="#about" class="header_link">About us</a>
+                    <a href="#menu" class="header_link">Menu</a>
+                    <a href="#features"  class="header_link">Features</a>
+                    <a href="#contact" class="header_link">Contact us</a>
+                </nav>
+                <button class="bookingbtn">Booking Now</button>
+        </header>
 
-        <div id="home">
-            <div class="home_texts">
-                <p class="home_main_text">Making time a good time by making food the good food.</p>
-                <p class="home_sub_text">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment.</p>
-                
-                <div class="home_buttons">
-                    <button class="order_nowbtn">Order Now</button> <button class="food_detailsbtn">Food Details</button>
+        <!--MAIN CONTENT-->
+        <main>
+            <!--HERO-->
+            <section id="home">
+                <div class="home_texts">
+                    <h1 class="home_main_text">Making time a good time by making food the good food.</h1>
+                    <p class="home_sub_text">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment.</p>
+                    
+                    <div class="home_buttons">
+                        <button class="order_nowbtn">Order Now</button> <button class="food_detailsbtn">Food Details</button>
+                    </div>
                 </div>
 
-            </div>
-            <div class="home_image"></div>
+                <div class="home_image"></div>
 
-        </div>
+            </section>
 
-        <div id="features">
-            <p class="features_text">Features</p>
+            <!--FEATURES-->
+
+        <section id="features">
+            <h2 class="features_text">Features</h2>
             <p class="features_subtext">Food with a New Passion</p>
             
             <div class="features_description">
-                <div class="quality">
+                <article class="quality">
                     <div class="quality_image"><img src="./images/quality food.png" alt="house image"/></div>
-                    <p class="features_headertext">Quality Food</p>
+                    <h3 class="features_headertext">Quality Food</h3>
                     <p class="features_headersubtext">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
 
-                </div>
-                <div class="delivery">
+                </article>
+                <article class="delivery">
                     <div class="delivery_image"><img src="./images/food delivery.png" alt="delivery rider" /></div>
-                    <p class="features_headertext">Food Delivery</p>
+                    <h3 class="features_headertext">Food Delivery</h3>
                     <p class="features_headersubtext">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
 
-                </div>
-                <div class="taste">
+                </article>
+                <article class="taste">
                     <div class="taste_image"><img src="./images/taste.png" alt="smiley face"/></div>
-                    <p class="features_headertext">Super Taste</p>
+                    <h3 class="features_headertext">Super Taste</h3>
                     <p class="features_headersubtext">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
 
-                </div>
+                </article>
             </div>
 
-        </div>
+        </section>
 
-        <div id="about">
+            <!--ABOUT-->
+        <section id="about">
             <div class="about_image"> </div>
             <div class="about_text">
-                <p class="aboutus">About Us</p>
+                <h2 class="aboutus">About Us</h2>
                 <p class="aboutus_header">Food Stalls with Persons but to Product marketing plane catlogues etc to. </p>
                 <p class="aboutus_subtext">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also equipment make your marketing plane Effective.</p>
 
                 <button class="readmore_btn">Read More</button>
 
             </div>
-        </div>
+        </section>
 
-       <div id="menu">
+            <!--MENU-->
+       <section id="menu">
             <div class="menu_texts">
-                <p class="menu">Menu</p>
+                <h2 class="menu">Menu</h2>
                 <p class="menu_header">Food Full of treaty Love</p>
                 <p class="menu_subtext">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, </p>
             </div>
 
             <div class="menu_grid">
-               <div class="card">
-                <img src="./images/veggie muffen.png" alt="veggie muffen"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Veggie Muffen</h3>
-                        <span class="price">16$</span>
+
+                <!--MENU CARD-->
+
+               <article class="card">
+                    <img src="./images/veggie muffen.png" alt="veggie muffen"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Veggie Muffen</h3>
+                            <span class="price">16$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐⭐</div>
+                        </footer>
                     </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐⭐</div>
+                </article>
+            
+
+
+
+                <article class="card">
+                    <img src="./images/salads.png" alt="Burger"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Salads</h3>
+                            <span class="price">12$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐⭐</div>
+                        </footer>
                     </div>
-                </div>
+                </article>
+
+
+                <article class="card">
+                    <img src="./images/burger.png" alt="Burger"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Burger</h3>
+                            <span class="price">10$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐⭐</div>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./images/steak dish.png" alt="Delmonico Steak dish"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Delmonico Steak dish</h3>
+                            <span class="price">14$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐</div>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./images/egg malasa.png" alt="Egg Masala"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Egg Masala</h3>
+                            <span class="price">9$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐⭐⭐</div>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./images/melba dish.png" alt="Peach Melba dish"/>
+                    <div class="card-body">
+                        <header class="card-header">
+                            <h3>Peach Melba dish</h3>
+                            <span class="price">15$</span>
+                        </header>
+                        <p>There are many things are needed to start the Fast Food Business.</p>
+                        <footer class="card-footer">
+                            <button>+</button>
+                            <div class="stars">⭐⭐⭐</div>
+                        </footer>
+                    </div>
+                </article>
+
+                <button class="learn-more">Learn More</button>
             </div>
+        </section>
 
+        <!--TAKEAWAY-->
 
-
-            <div class="card">
-                <img src="./images/salads.png" alt="Burger"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Salads</h3>
-                        <span class="price">12$</span>
-                    </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐⭐</div>
-                    </div>
-                </div>
-            </div>
-
-
-                <div class="card">
-                <img src="./images/burger.png" alt="Burger"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Burger</h3>
-                        <span class="price">10$</span>
-                    </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐⭐</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./images/steak dish.png" alt="Delmonico Steak dish"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Delmonico Steak dish</h3>
-                        <span class="price">14$</span>
-                    </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./images/egg malasa.png" alt="Egg Masala"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Egg Masala</h3>
-                        <span class="price">9$</span>
-                    </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐⭐⭐</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./images/melba dish.png" alt="Peach Melba dish"/>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Peach Melba dish</h3>
-                        <span class="price">15$</span>
-                    </div>
-                    <p>There are many things are needed to start the Fast Food Business.</p>
-                    <div class="card-footer">
-                        <button>+</button>
-                        <div class="stars">⭐⭐⭐</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-            <button class="learn-more">Learn More</button>
-
-        
-
-    </div>
-
-        <div id="takeaway">
+        <section id="takeaway">
             <div class="takeaway_texts">
-                <p class="takeaway">take away</p>
+                <h2 class="takeaway">take away</h2>
                 <p class="takeaway_header">Food Stalls with Persons but to Product marketing plane. </p>
                 <p class="takeaway_subtext">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipmentwith Persons but also  Just Food Stalls with Persons.</p>
 
@@ -196,17 +206,20 @@
                 </div>
             </div>
             <div class="takeaway_img"></div>
-        </div>
+        </section>
 
-        <div id="testimonial">
+
+        <!--TESTIMONIAL-->
+
+        <section id="testimonial">
             <div class="testimonial_texts">
-                <p class="testimonial">testimonial</p>
+                <h2 class="testimonial">testimonial</h2>
                 <p class="testimonial_header">Making Food great again and again</p>
                 <p class="testimonial_subtext">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</p>
 
             </div>
             
-                <div class="rating">
+                <article class="rating">
                    <div class=profile_pic> <img src="./images/woman.png"></div>
 
                    <div class="rating_texts">
@@ -215,26 +228,31 @@
                     <p>Augusta W. Reynoso</p>
                     <p style="font-size: 12px; color:rgb(21, 12, 1, 0.7);">UI&UX DESIGNER</p>
                    </div>
-                </div>
+                </article>
 
 
 
-        </div>
+        </section>
 
-        <div id="contact">
+        <!--CONTACT-->
+
+        <section id="contact">
             <div class="contact_texts">
-                <p class="contact">Contact</p>
+                <h2 class="contact">Contact</h2>
                 <p class="contact_header">Food Stalls with Persons but also specialized equipment, Skills to manage.</p>
             </div>
 
             <div class="searchbar_div">
+                <label for="message"></label>
                 <input class="searchbar" type="text" name="message" placeholder="Enter your message">
                 <button class="sendbtn">Send</button>
             </div>
 
-        </div>
+        </section>
 
-        <div id="ending">
+        <!--FOOTEER-->
+
+        <footer id="ending">
             <div>
                 <ul>
                     <li><img src="./images/foodlogo.png"  alt="food network logo" width="44px" height="43px"></li>
@@ -283,7 +301,7 @@
                 </ul>
             </div>
 
-        </div>
+        </footer>
 
     </div>
 </body>
